@@ -1,0 +1,92 @@
+.video-player {
+    position: relative;
+    margin: auto;
+    video{
+        width: 100%;
+        height: 400px; /* This maintains the aspect ratio */
+        aspect-ratio: 1 / 1; /* Ensures the video is square */
+        object-fit: cover;
+    }
+    audio{display: none;}
+    img{
+        width: 100%;
+        aspect-ratio: 1 / 1; /* Ensures the video is square */
+        object-fit: contain;
+        border-radius: 8px;
+    }
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $secondary_color;
+    padding: 10px;
+    color: white;
+    .podcast-name{
+        width: 40%;
+        h4{
+          font-size: 1.3rem;
+          line-height: 1.2;
+        }
+        p{
+          margin-top: 7px;
+          opacity: 0.8;
+        }
+      }
+    .controls-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        direction: ltr;
+    }
+}
+
+#playPauseBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    i,svg{
+        font-size: 1.4rem;
+        color: #333;
+    }
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    cursor: pointer;
+}
+
+#seekBar{
+    width: 50% !important;
+}
+#seekBar, #volumeBar {
+    width: 100px;
+    accent-color: $main_color;
+}
+
+#currentTime, #duration {
+    font-size: 14px;
+}
+#playbackRate{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 0 10px;
+    outline: none !important;
+    option{
+        color: #333;
+    }
+}

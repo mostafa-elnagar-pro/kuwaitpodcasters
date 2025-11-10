@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/*fonts
+====================*/
+@font-face {
+  font-family: "Din-Medium";
+  src: url("/website-assets/vendor/fonts/din-next-lt-w23-medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Din-Regular";
+  src: url("/website-assets/vendor/fonts/din-next-lt-w23-regular.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Reey-Regular";
+  src: url("/website-assets/vendor/fonts/Reey-Regular.otf");
+  font-weight: bold;
+}
+// @font-face {
+//   font-family: "Rubik-Bold";
+//   src: url("/website-assets/vendor/fonts/Rubik-Bold.ttf");
+//   font-weight: bold;
+// }
+// @font-face {
+//   font-family: "Bahij_Plain";
+//   src: url('/assets/admin/app-assets/fonts/Bahij_Plain.ttf');
+// }
+
+// @font-face {
+//   font-family: "Bahij_SemiBold";
+//   src: url('/assets/admin/app-assets/fonts/Bahij_SemiBold.ttf');
+// }
+
+
+
+
+
+/*body
+===========================*/
+body {
+  // font-family: "Bahij_Plain" !important;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: $black_color;
+}
+
+/* Links
+==========================*/
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* Headings
+========================== */
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+/*Lists
+==========================*/
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Reset
+
+====================*/
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: calc(1em + 0.5rem);
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $secondary_color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary_color;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*class
+==================*/
+.main-color{
+    color: $main_color !important;
+  }
+.m-end-auto{
+  margin-inline-end: auto !important;
+}
+.my-btn{
+  background-color: $main_color;
+  border: 1px solid $main_color;
+  color: $white_color;
+  padding: 7px 24px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: $white_color;
+    color: $main_color;
+  }
+}
+.main{
+  // margin-top: 58px;
+  section{
+    padding: 70px 0;
+  }
+  .bredcrump{
+    display: flex;
+    align-items: center;
+    padding-inline-start: 30px;
+    a{
+      color: $black_color;
+      cursor: pointer;
+      &:last-of-type{color: $secondary_color;}
+    }
+    span{
+      display: block;
+      margin: 0 7px;
+    }
+  }
+}
+.popular-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ps-30{
+  padding-inline-start: 30px
+}
+.bk-light{
+  background-color: #eee;
+}
+
+
+#loading {
+  display: flex;
+  justify-content: center;
+
+  .loader {
+    width: 45px;
+    height: 40px;
+    background: linear-gradient(#0000 calc(1*100%/6),#6d1bf2 0 calc(3*100%/6),#0000 0),
+              linear-gradient(#0000 calc(2*100%/6),#6d1bf2 0 calc(4*100%/6),#0000 0),
+              linear-gradient(#0000 calc(3*100%/6),#6d1bf2 0 calc(5*100%/6),#0000 0);
+    background-size: 10px 400%;
+    background-repeat: no-repeat;
+    animation: matrix 1s infinite linear;
+  }
+}
+
+@keyframes matrix {
+  0% {
+    background-position: 0% 100%, 50% 100%, 100% 100%
+  }
+
+  100% {
+    background-position: 0% 0%, 50% 0%, 100% 0%
+  }
+}
+
+    

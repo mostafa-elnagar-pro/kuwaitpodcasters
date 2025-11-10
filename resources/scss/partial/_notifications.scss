@@ -1,0 +1,197 @@
+/* Notification Styles */
+.notification-btn {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background: #f0f2f5;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: #e4e6eb;
+    }
+
+    i {
+        font-size: 1.2rem;
+        color: #050505;
+    }
+
+    p {
+        position: absolute;
+        top: -6px;
+        right: -6px;
+        background: #e41e3f;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        margin: 0;
+        border: 1px solid #ffffff;
+        font-weight: 600;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+        padding: 9px;
+        color: #fff !important;
+    }
+}
+
+.dropdown-menu {
+    width: 450px;
+    outline: none;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 12px 28px rgba(0, 0, 0, .2);
+    border: none;
+
+    h6 {
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 1;
+        margin: 0;
+        padding: 10px 30px;
+        border-bottom: 1px solid #E4E6EB;
+        font-weight: 600;
+    }
+
+    .notifications-container {
+        height: 400px !important; /* Subtract header height */
+        // padding: 8px 0;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .dropdown-item.notification {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        text-decoration: none;
+        direction: rtl;
+        box-sizing: border-box;
+        background-color: #fafafa;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            background-color: #f4f4f5;
+        }
+
+        &.unread {
+            background: #79b1eb1f;
+        }
+
+        &.unread:hover {
+            background: #dde6f4bf;
+        }
+
+        &.unread::before { 
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #007bff;
+            border-radius: 50%;
+            margin-right: auto;
+        }
+
+        > div {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        img {
+            width: 40px !important;
+            height: 40px !important;
+            border: 1px solid #2856cb;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        span {
+            width: 100%;
+            color: #050505;
+            font-size: 0.9rem;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap ;
+            word-wrap: break-word;
+            line-height: 1.4;
+            max-height: 2.8em;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .time {
+            color: #65676B;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-left: auto;
+            align-self: flex-end;
+            text-align: left;
+        }
+    }
+
+    .empty-state {
+        color: #65676B;
+        text-align: center;
+        padding: 24px 16px;
+        width: 100%;
+        box-sizing: border-box;
+        user-select: none;
+
+    
+        &:active,  &:hover {
+            background-color: transparent;
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #BCC0C4;
+        border-radius: 4px;
+
+        &:hover {
+            background: #A4A7AB;
+        }
+    }
+
+    @media (max-width: 480px) {
+        width: calc(100vw - 24px);
+        margin: 0 12px;
+        max-height: 80vh;
+
+        .notifications-container {
+            max-height: calc(80vh - 45px);
+        }
+
+        .dropdown-item.notification {
+            margin: 0 4px;
+            width: calc(100% - 8px);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<?php
+
+return [
+    "login" => "تسجيل الدخول",
+    "logout" => "تسجيل الخروج",
+    "add_new" => "إضافة جديد",
+    "add" => "إضافة",
+    "create" => "إنشاء",
+    "edit" => "تعديل",
+    "view" => "عرض",
+    "delete" => "حذف",
+    "delete_selected" => "حذف المحدد",
+    "notify_selected"=> "اشعار المحدد",
+    "notify_all"=> "اشعار الكل",
+    "save" => "حفظ",
+    "save_changes" => "حفظ التغييرات",
+    "confirm"=> "تأكيد",
+    "cancel"=> "الغاء",
+    "reset"=> "اعادة تعيين",
+    "search"=> "بحث",
+    "send"=> "ارسال",
+    "add_text"=> "اضافة نص",
+    "add_trans_text"=> "اضافة نص مترجم",
+    "add_media"=> "اضافة ملف",
+];

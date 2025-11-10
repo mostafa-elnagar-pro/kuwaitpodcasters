@@ -1,0 +1,181 @@
+.text-sm {
+  font-size: .9em;
+  padding: 8px 10px;
+}
+
+.xicon_btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    color: rgb(241, 127, 127);
+    padding: 6px 6px;
+    font-size: 17px;
+}
+
+.xicon_btn:hover {
+    color: rgb(189, 4, 4);
+}
+
+
+.chosen_table_info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: rgb(225 225 225 / 34%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.invitee_btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+}
+
+.invitee_btn:hover {
+    color: #360765;
+    text-decoration: underline;
+}
+
+.seats_count {
+    justify-self:center;
+    background: #460583;
+    color: #fff;
+    padding: 8px 6px; 
+    font-size: 13px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#event_tables {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 0;
+}
+
+.pie-outer {
+    position:relative;
+    width: 20em;
+    height: 15em;
+}
+
+.pie {
+    justify-self:end;
+    pointer-events:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    overflow:hidden;
+    border:2px solid #000;
+    border-radius:50%;
+}
+
+.pie ul {
+    list-style-type:none
+}
+
+.pie ul:after {
+    content:" ";
+    display:block;
+    width:100%;
+    padding-top:100%;
+}
+
+.pie li {
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    width:100%;
+    height:100%;
+    margin-left:-2px;
+    margin-top:-2px;
+    overflow:hidden;
+    z-index: 100;
+    border:1px solid #000;
+    -webkit-transform-origin:100% 100%;
+    -ms-transform-origin:100% 100%;
+    transform-origin:100% 100%
+}
+
+
+.pie a {
+    pointer-events:auto;
+    font-size:2.125vw;
+    /*line-height:170%;*/
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    text-align:center;
+    color:#fff;
+    cursor: default;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    
+}
+
+/* .pie a:hover {
+    background:rgba(255,255,255,0.25)
+} */
+
+#pie_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 200;
+  font-weight: bold;
+} 
+
+#pie_wrapper > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+#pie_wrapper > div:hover {
+ /* font-size: 11px; */
+ text-decoration: underline;
+ color: #064973;
+ cursor: pointer;
+
+}
+
+.table_invitees_list {
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+@media (min-width:40em ) {
+    #event_tables {
+        justify-content: start;
+    }
+
+    .pie-outer {
+        width: 24em;
+    }
+    .pie a {
+        font-size:1em
+    }
+
+
+
+}

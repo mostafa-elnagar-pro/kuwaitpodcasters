@@ -1,0 +1,122 @@
+
+.channal-details{
+  width: 85%;
+  margin: auto;
+  padding: 50px 0;
+  .image{
+    img{
+      border-radius: 8px;
+    }
+  }
+  .info{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    p{
+      font-size: 1.1rem;
+      margin: 15px 0;
+      color: #293036;
+      opacity: 0.8;
+    }
+    .numbers{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      h5{
+        color: #9497b7;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      h4{
+        color: #9497b7;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0 10px;
+      }
+    }
+    .owner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      label{
+        color: $main_color;
+        background-color: rgba(60, 63, 170, 0.5);
+        padding: 5px 15px;
+        border-radius: 6px;
+        font-weight: 600;
+      }
+      .podcaster{
+        display: flex;
+        align-items: center;
+        img{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-inline-end: 7px;
+        }
+        a{
+          color: #9497b7;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.podcast{
+  .controls{
+    margin-bottom: 50px;
+    padding:50px;
+    border-radius: 8px;
+  }
+  .details{
+    height: 100%;
+    // padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    p,a{
+      display: flex;
+      align-items: center;
+      color: #979797;
+      font-size: 17px;
+    }
+    h1{
+      line-height: 3.5rem;
+      margin: 15px 0;
+      font-size: 40px;
+    }
+    .info{
+      display: flex;
+      // justify-content: center;
+      margin-top: 20px;
+      button,label{
+        background-color: $main_color;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+        border-radius: 15px;
+        width: 100px;
+        margin: 10px;
+        font-size: 20px;
+        span{
+          margin: 5px;
+          margin-top: 10px;
+        }
+        svg{
+          margin-inline-start: 5px;
+        }
+      }
+
+      button:hover{
+        background: #6568bf;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,41 @@
+<?php
+
+return [
+    "welcomeToPodcaster" => "Welcome to Podcasters",
+    "cantDeleteSuperAdmin" => "Not allowed to delete super admin",
+    "cantDeleteAdminRole" => "Not allowed to delete admin role",
+    "successCreate" => "Created record successfully",
+    "failedCreate" => "Failed to create record",
+    "successUpdate" => "Updated record successfully",
+    "failedUpdate" => "Failed to update record",
+    "successDelete" => "Deleted record successfully",
+    "failedDelete" => "Failed to delete record",
+    "successMultiDelete" => "Deleted selected records successfully",
+    "failedMultiDelete" => "Failed to delete selected records",
+    "parentRecordError" => "Record with existing sub records won't get deleted. Remove or update related records first.",
+    "confirmDelete" => "Are you sure you want to delete this record?",
+    "confirmMultiDelete" => "Are you sure you want to delete the selected records?",
+    "successRegister" => "Registered new account successfully",
+    "failedLogin" => "Failed to login",
+    "invalidCredentials"=> "Invalid credentials",
+    "failedLogout" => "Failed to logout",
+    "notAllowedToUpdateOrDeleteSuperAdmin" => "Not allowed to edit or delete super admin",
+    "notAllowedToUpdateOrDeleteSuperAdminRole" => "Not allowed to edit or Delete super admin role",
+    "failedUpload" => "Failed to upload file",
+    "countryNotFound" => "Country not found",
+    "invalidPhone" => "Invalid phone number",
+    "unauthenticated" => "Unauthenticated",
+    "unauthorizedAction" => "This action is unauthorized",
+    "notFound" => "Record not found",
+    "error" => "Something went wrong",
+    "selectPodcaster" => "Please select a podcaster",
+    "selectChannel" => "Please select a channel",
+    "selectSeason" => "Please select a season",
+    "invalidMediaSource" => "Invalid media source provided",
+    "tryLater" => "Try again later",
+    "invalidOTP" => "OTP doesn't match",
+    "expiredOTP" => "OTP has expired",
+    "contactSupport" => "Account is not active. Please contact the Support"
+
+
+];

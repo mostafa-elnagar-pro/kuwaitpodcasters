@@ -1,0 +1,292 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+button.default {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url("https://dg.imgix.net/the-best-sermon-for-marriage-xae4kldx-en/landscape/the-best-sermon-for-marriage-xae4kldx-6da6198871605a55a97bde297b66b9e6.jpg?ts=1647360833&ixlib=rails-4.3.1&fit=crop&w=2000&h=1050");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.event-name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #b01f1f;
+  margin: 30px;
+  text-transform: capitalize;
+}
+
+.couple-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.groom-image,
+.bride-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid rgba(242,121,143,.2);
+}
+
+.heart {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://www.lmpixels.com/demo/loveis/images/heart_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#details h2 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 27px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+}
+
+#details .invitation {
+  width: 150px;
+  height: 200px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#details .info {
+  font-size: 22px;
+  color: #222;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  color: #f0387f;
+  background: #f0387f17;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.countdown-item span {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.countdown-item p {
+  margin: 0;
+  font-size: 35px;
+  line-height: 37px;
+}
+
+@media (min-width: 768px) {
+  .event-name {
+      font-size: 40px;
+  }
+
+  #details h2 {
+      font-size: 40px;
+  }
+
+  #details .info {
+      font-size: 35px;
+  }
+
+  #countdown {
+      gap: 20px;
+  }
+  
+  .countdown-item span {
+      font-size: 30px;
+  }
+  
+}
+
+
+
+.event-info {
+  font-size: 30px;
+  color: #222;
+  margin: 30px;
+  text-transform: capitalize;
+}
+
+
+
+.actions {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+  margin: 50px 0;
+}
+
+.action-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.action-button {
+  background-color: transparent;
+  border: none;
+  color: #670ab4;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.action-label {
+  color: #670ab4;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+  .banner {
+      height: 400px;
+  }
+
+  #details .invitation {
+      width: 300px;
+      height: 400px;
+      margin: 20px 0;
+      border-radius: 10px;
+  }
+
+  .couple-images {
+      margin-top: 40px;
+      gap: 20px;
+  }
+
+  .groom-image,
+  .bride-image {
+      width: 120px;
+      height: 120px;
+  }
+
+  .heart {
+      width: 70px;
+      height: 70px;
+  }
+
+  .couple-names {
+      font-size: 32px;
+  }
+
+  .countdown-item span {
+      font-size: 30px;
+  }
+
+  .actions {
+      margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+      height: 500px;
+  }
+
+  #details .invitation {
+      width: 400px;
+      height: 500px;
+  }
+
+  .couple-images {
+      margin-top: 20px;
+      gap: 30px;
+  }
+
+  .groom-image,
+  .bride-image {
+      width: 250px;
+      height: 250px;
+  }
+
+  .heart {
+      width: 80px;
+      height: 80px;
+  }
+
+  .couple-names {
+      font-size: 35px;
+  }
+
+  .countdown-item span {
+    font-size: 22px;
+  }
+
+  .actions {
+      margin-top: 50px;
+  }
+
+  .action-button {
+      font-size: 40px;
+  }
+
+  .action-label {
+      font-size: 30px;
+  }
+}

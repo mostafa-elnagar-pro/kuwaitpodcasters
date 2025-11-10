@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+        <loc>http://localhost:8000</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/channels</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/podcasts</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/podcasters/1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/podcasters</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/4</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/5</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/6</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/7</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/8</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/9</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/10</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/11</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories/12</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/categories</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/4</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/5</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/6</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/7</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/8</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/9</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/10</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/11</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/12</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/13</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/14</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/15</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/16</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/17</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/18</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/19</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/20</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/21</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/22</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/23</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/24</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/25</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/26</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/27</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/28</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/29</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/30</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/31</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/32</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/33</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/34</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/35</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/36</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/37</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/38</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/39</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles/40</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/articles</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/contact-us</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/about-us</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/privacy-policy</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/terms-conditions</loc>
+    
+            </url>
+</urlset>

@@ -1,0 +1,68 @@
+.podqaster-page{
+    padding: 50px;
+    .podqaster-image{
+        img{
+            width: 380px;
+            height: 380px;
+            border-radius: 50%;
+        }
+    }
+    .podqaster-info{
+        padding-top: 20px;
+        .seasons{
+            color: #9497b7;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .name{
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 1.5;
+        }
+        .job{
+            margin-top: 0.5em;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.5;
+            color: $main_color;
+        }
+        .socials{
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            a{
+                margin-inline-end: 10px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f2f4f9;
+                transition: all 0.3s ease-in-out;
+                svg,i{color: #000;font-size: 20px;transition: all 0.3s ease-in-out;}
+                &:hover{
+                    transform: rotate(360deg);
+                    background-color: $main_color;
+                    svg,i{color: #fff;}
+                }
+            }
+        }
+        .breif{
+            line-height: 1.86em;
+            margin: 1em 0;
+            color: #777777;
+            font-size: 16px;
+        }
+        .my-btn{
+           margin-inline-end: 30px;
+            display: block;
+            font-size: 18px;
+            padding: 11px 40px;
+            &:hover{
+                background-color: $main_color !important;
+                color: #fff !important;
+            }
+        }
+    }
+}

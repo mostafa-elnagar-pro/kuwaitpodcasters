@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.podcast.podcaster",
+      "sha256_cert_fingerprints": [
+        "2FD080007E88099305EF4E3FD32C6CC032C47D7685C2D51A4F3C86500AA9451E"
+      ]
+    }
+  }
+]
