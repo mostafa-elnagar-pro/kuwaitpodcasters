@@ -23,6 +23,10 @@ Route::group(
     function () {
         Route::get('/', [HomeController::class, 'index'])->name('index');
 
+        Route::get('/test', function (){
+            return "test";
+        });
+
         Route::resource('channels', ChannelController::class)->only('index', 'show');
 
         Route::get('podcasts/search', [PodcastSearchController::class, 'index'])->name('podcasts.search.index');
@@ -134,7 +138,7 @@ Route::get('add_extra_settings', function () {
 
 /*
  * encode font into base64 for datatable pdf export problem with arabic font
- * add the font folder in public and add path of the folder 
+ * add the font folder in public and add path of the folder
  * then it will automatically give a vfs_fonts.js file in public dir
  */
 // Route::get('make_font', function () {
