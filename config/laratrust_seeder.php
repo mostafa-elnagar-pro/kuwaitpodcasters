@@ -23,6 +23,8 @@ return [
             'seasons' => 'c,r,u,d',
             'podcasts' => 'r,u,d',
             'articles'=> 'c,r,u,d',
+            'books' => 'c,r,u,d',
+            'exclusive-episodes' => 'c,r,u,d',
             'countries' => 'c,r,d',
             'categories' => 'c,r,u,d',
             'languages' => 'c,r,u,d',

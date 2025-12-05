@@ -38,6 +38,8 @@ class AppServiceProvider extends ServiceProvider
         view()->composer([
             'dashboard.pages.articles.create',
             'dashboard.pages.articles.edit',
+            'dashboard.pages.books.create',
+            'dashboard.pages.books.edit',
             'dashboard.pages.languages.edit',
             'dashboard.pages.categories.create',
             'dashboard.pages.categories.edit',

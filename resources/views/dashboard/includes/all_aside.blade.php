@@ -77,6 +77,8 @@
                     <x-dashboard.sidebar-item resource='seasons' icon='bi-calendar-range' />
                     <x-dashboard.sidebar-item resource='podcasts' icon='bi-mic' :showCreate="false" />
                     <x-dashboard.sidebar-item resource='articles' icon='bi-journal-text' />
+                    <x-dashboard.sidebar-item resource='books' icon='bi-book' />
+                    <x-dashboard.sidebar-item resource='exclusive-episodes' icon='bi-star' />
                 </ul>
             </li>
             <!--/ content management -->

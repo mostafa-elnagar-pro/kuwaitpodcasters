@@ -84,6 +84,23 @@ return [
 
 
     "articles" => "Articles",
+    "books" => "Recent Books",
+    "book_details" => "Book Details",
+    "new_book" => "New Book",
+    "edit_book" => "Edit Book",
+    "book_name" => "Book Name",
+    "author" => "Author",
+    "summary" => "Summary",
+    "publication_year" => "Publication Year",
+    "publisher" => "Publisher",
+
+    "exclusive_episodes" => "Exclusive Episodes",
+    "exclusive-episodes" => "Exclusive Episodes",
+    "exclusive_episode_details" => "Exclusive Episode Details",
+    "new_exclusive_episode" => "New Exclusive Episode",
+    "edit_exclusive_episode" => "Edit Exclusive Episode",
+    "filter_exclusive_episodes" => "Filter Exclusive Episodes",
+    "current_file" => "Current File",
     "article_details" => "Article Details",
     "new_article" => "New Article",
     "edit_article" => "Edit Article",

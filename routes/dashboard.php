@@ -4,7 +4,9 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\AppRateController;
 use App\Http\Controllers\Admin\ArticleController;
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\BookController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\ExclusiveEpisodeController;
 use App\Http\Controllers\Admin\ChannelController;
 use App\Http\Controllers\Admin\FeedbackController;
 use App\Http\Controllers\Admin\SeasonController;
@@ -66,6 +68,13 @@ Route::group(
 
             Route::delete('articles/bulk-delete', [ArticleController::class, 'bulkDelete'])->name('articles.bulkDelete');
             Route::resource('articles', ArticleController::class);
+
+            Route::delete('books/bulk-delete', [BookController::class, 'bulkDelete'])->name('books.bulkDelete');
+            Route::resource('books', BookController::class);
+
+            Route::delete('exclusive-episodes/bulk-delete', [ExclusiveEpisodeController::class, 'bulkDelete'])->name('exclusive-episodes.bulkDelete');
+            Route::get('exclusive-episodes-channel-seasons', [ExclusiveEpisodeController::class, 'getChannelSeasons'])->name('exclusive-episodes.channelSeasons');
+            Route::resource('exclusive-episodes', ExclusiveEpisodeController::class);
 
             Route::delete('countries/bulk-delete', [CountryController::class, 'bulkDelete'])->name('countries.bulkDelete');
             Route::resource('countries', CountryController::class)->except('edit', 'update');
