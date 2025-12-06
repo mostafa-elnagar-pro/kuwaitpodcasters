@@ -9,9 +9,11 @@ use App\Http\Controllers\Api\CategoryPodcastController;
 use App\Http\Controllers\Api\ChannelController;
 use App\Http\Controllers\Api\ContactUsController;
 use App\Http\Controllers\Api\HomeController;
+use App\Http\Controllers\Api\BookController;
 use App\Http\Controllers\Api\SeasonPodcastController;
 use App\Http\Controllers\Api\ChannelSeasonController;
 use App\Http\Controllers\Api\FollowUserController;
+use App\Http\Controllers\Api\ExclusiveEpisodeController;
 use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\PodcastCommentController;
 use App\Http\Controllers\Api\PodcasterController;
@@ -59,6 +61,10 @@ Route::middleware('setClientLocale')->group(function () {
             Route::apiResource('channels.seasons', ChannelSeasonController::class)->except('show');
             Route::apiResource('channels.seasons.podcasts', SeasonPodcastController::class)->except('show');
         });
+
+        Route::apiResource('books', BookController::class);
+
+        Route::apiResource('exclusive-episodes', ExclusiveEpisodeController::class);
 
         Route::get('podcasts/{filter}', PodcastController::class);
 
